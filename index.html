@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC articles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NYT articles browser</h1>
+<label for="sectionSelect"> choose a section</label>
+<select id="sectionSelect">
+    <option value="world">World</option>
+<option value="health">Health</option>
+<option value="technology">Technology</option>
+<option value="science">Science</option>
+<option value="arts">Arts</option>
+</select>
+<h2>search for articles</h2>
+<form id="searchForm">
+<input type="text" id="searchInput" placeholder="type a keyword...">
+<button type="submit">search</button>
+</form>
+
+<h2>browse news by date </h2>
+<form id="archiveForm">
+<select id="monthSelect">
+    <option value="1">january</option>
+     <option value="2">february</option>
+      <option value="3">march</option>
+       <option value="4">april</option>
+        <option value="5">may</option>
+         <option value="6">june</option>
+          <option value="7">july</option> 
+           <option value="8">august</option>
+            <option value="9">september</option>
+             <option value="10">october</option>
+              <option value="11">november</option>
+               <option value="12">december</option>
+</select>
+
+<select id="yearSelect">
+    <option value="2023">2023</option>
+<option value="2024">2024</option>
+ <option value="2025">2025</option>
+</select>
+
+<button type="submit">load archive</button>
+</form>
+<div id="articlesContainer"></div>
+
+<script src="index.js"></script>
+
+
+</body>
+</html>

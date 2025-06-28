@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  background-color: gray;
+  color: white;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: darkgray;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+div {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: gray;
+  margin: 10px 0;
+}
